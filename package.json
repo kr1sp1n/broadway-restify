@@ -1,0 +1,36 @@
+{
+  "name": "broadway-restify",
+  "version": "0.0.1",
+  "author": "Krispin Schulz <krispinone@googlemail.com>",
+  "preferGlobal": "true",
+  "description": "A broadway plugin to use restify as http server",
+  "contributors": [
+    {
+      "name": "Krispin Schulz",
+      "email": "krispinone@googlemail.com"
+    }
+  ],
+  "dependencies": {
+    "broadway": "0.2.5",
+    "restify": "~2.0.4"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "mocha": "*",
+    "should": "*",
+    "request": "*",
+    "notes": "*",
+    "sinon": "1.4.2"
+  },
+  "bin": {},
+  "scripts": {},
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kr1sp1n/broadway-restify.git"
+  },
+  "engines": {
+    "node": ">= 0.8",
+    "npm": "*"
+  }
+}
